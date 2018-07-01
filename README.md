@@ -8,11 +8,12 @@
 
 ### How to use (Linux)
 * Requires 'python' and 'pip' packages installed.
-* To install the script, open your Terminal and first acces the folder you downloaded and then process with the installation:
+* To install the script, open your Terminal and first access the folder you downloaded and then process with the installation:
   ```
-  cd Downloads/the-prisoner-of-pyland/
-  ```
-  ```
+  cd Downloads/
+  unzip the-prisoner-of-pyland-master.zip
+  rm the-prisoner-of-pyland-master.zip
+  cd the-prisoner-of-pyland-master/
   sudo python setup.py install
   ```
 * To run it, just write this in your terminal:
